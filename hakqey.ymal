@@ -59,7 +59,6 @@ form:
     "\ue0c1": 虫
     "\ue42f": 火
     "\ue430": 火
-    "\ue408": 火
     "\ue42e": 火
     灬: 火
     "\ue031": 尸
@@ -215,7 +214,6 @@ form:
     罒: 四
     "\ue03e": 小
     "\ue06c": 小
-    "\ue442": 小
     "\ue096": 甘
     虍: 虎
     钅: 金
@@ -235,6 +233,19 @@ form:
     "\ue451": 止
     "\ue102": 王
     "\ue439": 冂
+    "\ue17b": 卜
+    "\ue177": 卜
+    丄: 卜
+    "\ue07c": 卜
+    风: 風
+    "\ue120": 业
+    丱: 业
+    "\ue137": 业
+    "\ue129": 业
+    𠁁: 业
+    齒: 齿
+    歯: 齿
+    囟: 囪
   mapping:
     '1': fi
     '2': gs
@@ -245,14 +256,14 @@ form:
     疒: ab
     丁: ad
     丰: af
-    缶: af
-    鬼: ag
+    缶: a
+    鬼: q
     六: al
     耒: al
     门: am
     皿: am
     片: ap
-    舌: as
+    舌: e
     未: aw
     弓: bg
     乂: bi
@@ -264,16 +275,16 @@ form:
     女: bn
     氏: bs
     聿: bv
-    云: by
-    不: cb
+    云: w
+    不: w
     虫: cc
     飞: cf
     古: cg
-    火: ch
+    火: w
     支: ci
     及: cj
     尸: cs
-    业: cy
+    业: w
     口: dk
     里: dl
     民: dm
@@ -292,7 +303,7 @@ form:
     辰: fc
     骨: fg
     且: fq
-    示: fs
+    示: q
     亡: fw
     歹: gd
     高: gg
@@ -308,7 +319,7 @@ form:
     夂: hi
     攵: hp
     壴: hu
-    心: hx
+    心: q
     册: ic
     艮: ig
     丩: ij
@@ -333,7 +344,7 @@ form:
     厶: ks
     毋: ku
     艹: lc
-    齿: lc
+    齿: e
     而: le
     方: lf
     廿: ln
@@ -342,11 +353,11 @@ form:
     卅: ls
     夕: lx
     卌: lx
-    牙: ly
+    牙: e
     巴: mb
     大: md
     二: me
-    光: mg
+    光: w
     户: mh
     豸: mi
     冂: mk
@@ -365,7 +376,7 @@ form:
     辛: nx
     贝: ob
     川: oc
-    自: oi
+    自: e
     几: oj
     日: or
     矢: os
@@ -383,15 +394,15 @@ form:
     行: px
     走: pz
     臣: qc
-    耳: qe
+    耳: e
     井: qj
     老: ql
-    目: qm
+    目: e
     牛: qn
     齐: qq
     食: qs
     田: qt
-    非: rf
+    非: q
     之: ri
     巾: rj
     囗: rk
@@ -407,7 +418,7 @@ form:
     止: si
     甲: sj
     力: sl
-    尚: ss
+    尚: w
     言: sy
     阝: te
     弗: tf
@@ -417,7 +428,7 @@ form:
     龙: tl
     疋: ts
     三: ts
-    雨: tv
+    雨: w
     用: ty
     白: ub
     辶: uc
@@ -431,7 +442,7 @@ form:
     㐄: vk
     毛: vm
     乃: vn
-    气: vq
+    气: w
     禸: vr
     山: vs
     巳: vs
@@ -458,13 +469,13 @@ form:
     乌: xu
     音: xy
     爪: ya
-    卜: yb
+    卜: q
     车: yc
     瓜: yg
     至: yi
     曲: yq
     四: ys
-    小: yx
+    小: w
     酉: yy
     豆: zd
     甘: zg
@@ -477,7 +488,11 @@ form:
     亠: zt
     羽: zv
     习: zx
-  mapping_type: 2
+    風: w
+    鼻: e
+    血: e
+    囪: e
+  mapping_type: 3
 encoder:
   max_length: 4
   auto_select_length: 4
