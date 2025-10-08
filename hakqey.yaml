@@ -78,11 +78,113 @@ form:
     风: w
     風:
       element: 风
+    雨: w
+    "\ue0d0":
+      element: 雨
+    尚: w
+    "\ue0c3":
+      element: 尚
+    龸:
+      element: 尚
+    业: w
+    "\ue120":
+      element: 业
+    "\ue137":
+      element: 业
+    "\ue136":
+      element: 业
+    "\ue129":
+      element: 业
+    小: w
+    "\ue03e":
+      element: 小
+    "\ue448":
+      element: 小
+    "\ue40d":
+      element: 小
+    "\ue442":
+      element: 小
+    "\ue06c":
+      element: 小
+    气: w
+    光: w
+    云: w
+    "\ue266":
+      element: 云
+    "\ue00a":
+      element: 云
+    不: w
+    耳: e
+    目: e
+    自: e
+    鼻: e
+    舌: e
+    齒: e
+    齿:
+      element: 齒
+    歯:
+      element: 齒
+    牙: e
+    㸦:
+      element: 牙
+    血: e
+    囟: e
+    頁: e
+    页:
+      element: 頁
+    𩑋:
+      element: 頁
+    "\ue03d":
+      element: 頁
+    "\ue98e":
+      element: 頁
+    "\ue105":
+      element: 頁
+    面: e
+    靣:
+      element: 面
+    身: e
+    𨈑:
+      element: 身
+    𨈐:
+      element: 身
+    𨈏:
+      element: 身
+    㐆:
+      element: 身
+    𠂣:
+      element: 身
+    "\ue031":
+      element: 尸
+    尸: e
+    "\ue06b":
+      element: 尸
+    "\ue10e":
+      element: 尸
+    𡰣:
+      element: 尸
+    骨: e
+    冎: e
+    "\ue16c":
+      element: 冎
+    歹: e
+    歺:
+      element: 歹
+    𣦶:
+      element: 歹
+    "\ue098":
+      element: 歹
+    󲉼:
+      element: 歹
+    角:
+      element: 角
   mapping_space:
-    "\ue0ed":
-      - {value: {element: 鬼}, score: 0}
     鬼:
       - {value: {element: "\ue0ed"}, score: 0}
+    云:
+      - {value: {element: "\ue00a"}, score: 0}
+    "\ue0ed":
+      - {value: {element: 鬼}, score: 0}
 encoder:
   max_length: 4
   auto_select_length: 4
